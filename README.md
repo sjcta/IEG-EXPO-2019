@@ -1,5 +1,7 @@
 # myvue
 
+Mobile Site For Hitachi-IEG 2019 Expo
+
 ## Project setup
 ```
 npm install
