@@ -7,7 +7,7 @@ module.exports = {
     }
   },
 
-  baseUrl: './',
+  baseUrl: '/',
   lintOnSave: false,
   outputDir: undefined,
   assetsDir: 'assets',

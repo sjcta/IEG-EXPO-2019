@@ -16,20 +16,20 @@
             <v-flex xs4>
               <router-link to="/product/detail">
                 <v-card flat>
-                    <v-img :src="require('../assets/images/products/UX-D160S.png')"></v-img>
+                    <v-img :src="require('@/assets/images/products/UX-D160S.png')"></v-img>
                     <v-card-text class="text-xs-center">UX-D160S</v-card-text>
                 </v-card>
               </router-link>
             </v-flex>
             <v-flex xs4>
                 <v-card flat>
-                    <v-img :src="require('../assets/images/products/UX-D860S.png')"></v-img>
+                    <v-img :src="require('@/assets/images/products/UX-D860S.png')"></v-img>
                     <v-card-text class="text-xs-center">UX-D860S</v-card-text>
                 </v-card>
             </v-flex>
             <v-flex xs4>
                 <v-card flat>
-                    <v-img :src="require('../assets/images/products/UX-D110S.png')"></v-img>
+                    <v-img :src="require('@/assets/images/products/UX-D110S.png')"></v-img>
                     <v-card-text class="text-xs-center">UX-D110S</v-card-text>
                 </v-card>
             </v-flex>
