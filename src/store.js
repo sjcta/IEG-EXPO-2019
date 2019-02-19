@@ -6,7 +6,7 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     states: 'turn-left',
-    showDoor: true,
+    showDoor: true
   },
   getters: {
     getPanelById: (state) => (id) => {

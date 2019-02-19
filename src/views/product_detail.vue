@@ -1,15 +1,12 @@
 <template>
   <div>
-    <headerBar>
-      {{currentPrd}}
-    </headerBar>
+    <headerBar>UX系列</headerBar>
 
     <v-content id="productList">
       
-
       <v-container fluid>
         <v-tabs grow fixed-tabs slider-color="pink" v-model="tabs">
-            <v-tab v-for="(i,index) in products" :key="index" :href="`#tab-${index}`">{{i}}</v-tab>
+            <v-tab v-for="(i,index) in products" :key="index" :href="`#tab-${index}`" active-class="active">{{i}}</v-tab>
         </v-tabs>
 
         <v-tabs-items v-model="tabs">
@@ -87,16 +84,8 @@
 </template>
 
 <style scoped>
-
-.v-card {
-    margin: 20px 0;
-}
-.v-image {
-    padding: 5px;
-    background-size: 60%;
-}
-.v-list{
-    border-bottom: 1px solid #ccc;
+.v-tabs__item--active * {
+  color: red;
 }
 </style>
 
@@ -109,7 +98,7 @@ export default {
   },
   data () {
     return {
-        tabs: null,
+        tabs: "tab-" + this.$route.params.id,
         currentPrd: "UX-D160S",
         products: ['UX-D160S','UX-D860S','UX-D110S']
     }

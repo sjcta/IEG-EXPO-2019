@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-toolbar app dark  color="pink">
+    <v-toolbar app dark color="pink">
       <v-layout align-center justify-space-between row>
           <v-toolbar-title class="title text-uppercase" absolute>
             <span @click="$emit('closeDoor')">{{ $vuetify.t('$vuetify.header.title') }}</span>

@@ -13,24 +13,28 @@
         </v-list>
 
         <v-layout row>
-            <v-flex xs4>
-              <router-link to="/product/detail">
+            <v-flex xs4 @click="showProduct(0)">
                 <v-card flat>
                     <v-img :src="require('@/assets/images/products/UX-D160S.png')"></v-img>
-                    <v-card-text class="text-xs-center">UX-D160S</v-card-text>
+                    <v-card-text class="text-xs-center">
+                      <v-btn block flat>UX-D160S<v-icon color="pink" small dark>arrow_forward_ios</v-icon></v-btn>
+                    </v-card-text>
                 </v-card>
-              </router-link>
             </v-flex>
             <v-flex xs4>
-                <v-card flat>
+                <v-card flat @click="showProduct(1)">
                     <v-img :src="require('@/assets/images/products/UX-D860S.png')"></v-img>
-                    <v-card-text class="text-xs-center">UX-D860S</v-card-text>
+                    <v-card-text class="text-xs-center">
+                      <v-btn block flat>UX-D860S<v-icon color="pink" small dark>arrow_forward_ios</v-icon></v-btn>
+                    </v-card-text>
                 </v-card>
             </v-flex>
             <v-flex xs4>
-                <v-card flat>
+                <v-card flat @click="showProduct(2)">
                     <v-img :src="require('@/assets/images/products/UX-D110S.png')"></v-img>
-                    <v-card-text class="text-xs-center">UX-D110S</v-card-text>
+                    <v-card-text class="text-xs-center">
+                      <v-btn block flat>UX-D110S<v-icon color="pink" small dark>arrow_forward_ios</v-icon></v-btn>
+                    </v-card-text>
                 </v-card>
             </v-flex>
         </v-layout>
@@ -80,7 +84,9 @@ export default {
   computed: {
   },
   methods: {
-
+    showProduct (id) {
+      this.$router.push('/product/detail/' + id)
+    }
   }
 };
 </script>
