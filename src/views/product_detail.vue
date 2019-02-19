@@ -1,14 +1,16 @@
 <template>
   <div>
-    <headerBar>{{currentPrd}}</headerBar>
+    <headerBar>
+      {{currentPrd}}
+    </headerBar>
 
     <v-content id="productList">
       
-      <v-tabs fixed-tabs slider-color="pink" color="pink lighten-5" v-model="tabs">
-          <v-tab v-for="(i,index) in products" :key="index" :href="`#tab-${index}`">{{i}}</v-tab>
-      </v-tabs>
-      
+
       <v-container fluid>
+        <v-tabs grow fixed-tabs slider-color="pink" v-model="tabs">
+            <v-tab v-for="(i,index) in products" :key="index" :href="`#tab-${index}`">{{i}}</v-tab>
+        </v-tabs>
 
         <v-tabs-items v-model="tabs">
           <v-tab-item key='0' value="tab-0">
@@ -24,21 +26,30 @@
                 </p>
                 <v-img :src="require('@/assets/images/products/ux-d160s_p1.png')" class="mb-3" contain></v-img>
 
-                <p class="caption">* 和日立现有的设备相比，在相同条件下，UX-B和UX-D的溶剂挥发量减少30% （墨水：1067K，温度：20℃）</p>
+                <p class="caption mb-3">* 和日立现有的设备相比，在相同条件下，UX-B和UX-D的溶剂挥发量减少30% （墨水：1067K，温度：20℃）</p>
+
+                <v-img :src="require('@/assets/images/products/ux-d160s_p2.png')" class="mb-3" contain></v-img>
               </v-card-text>
             </v-card>
           </v-tab-item>
           <v-tab-item key='1' value="tab-1">
             <v-card flat>
               <v-card-title primary-title>
-                <h2>{{products[1]}}</h2>
+                <h2 class="display-2">{{products[1]}}</h2>
               </v-card-title>
               <v-card-text>
-                <h3>日立独创的“溶剂低消耗系统”，显著降低客户的运行成本</h3>
-                <p>
-                墨盒式设计，墨水及溶剂更换更方便，避免脏手和墨水遗漏<br>
-                日立先进技术制造的“溶剂低消耗系统”通过对墨水回路和设备温度的控制，有效减少耗材挥发，在控制耗材用量方面处于业内顶尖地位。
-                </p>
+                <h3 class="headline mb-4">高速，多行喷印（最多8行）、最大64点阵，90°旋转喷印（竖向喷印），满足不同喷印需求</h3>
+                
+                <ul class="mb-4">
+                  <li>可同时喷印行数达到8行。日立独有的喷印调节方式，即使多行印刷也可以确保清晰美观</li>
+                  <li>单个喷头32点阵，最大可达64点阵印刷。适用于钢板建材上的大文字印刷，并可对文字标识等进行自由编辑。</li>
+                  <li>喷印方向可进行90°旋转调节，最多可喷印12文字。</li>
+                  <li>搭载双喷嘴，将印刷速度提高一倍*1。</li>
+                </ul>
+
+                <p class="caption mb-3">*1 和我司单喷嘴机型（UX-D660J）对比</p>
+
+                <v-img :src="require('@/assets/images/products/ux-d860s_p1.png')" class="mb-3" contain></v-img>
               </v-card-text>
             </v-card>
           </v-tab-item>
@@ -64,6 +75,7 @@
 </template>
 
 <style scoped>
+
 .v-card {
     margin: 20px 0;
 }
