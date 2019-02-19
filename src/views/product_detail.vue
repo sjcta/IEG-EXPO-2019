@@ -3,55 +3,21 @@
     <headerBar>{{currentPrd}}</headerBar>
 
     <v-content id="productList">
-        <v-tabs fixed-tabs slider-color="pink" color="pink lighten-5">
-            <v-tab @click="currentPrd='UX-D160S'">UX-D160S</v-tab>
-            <v-tab @click="currentPrd='UX-D860S'">UX-D860S</v-tab>
-            <v-tab @click="currentPrd='UX-D110S'">UX-D110S</v-tab>
-        </v-tabs>
-
-      <v-container fluid class="group">
-        <v-list dense>
-          <v-list-tile ripple>
-            <v-list-tile-content>
-              <h2>UX-D160S</h2>
-            </v-list-tile-content>
-          </v-list-tile>
-        </v-list>
-
-        <v-layout row>
-            <v-flex xs4>
-                <v-card flat>
-                    <v-img :src="require('../assets/images/products/UX-D160S.png')"></v-img>
-                    <v-card-text class="text-xs-center">UX-D160S</v-card-text>
-                </v-card>
-            </v-flex>
-            <v-flex xs4>
-                <v-card flat>
-                    <v-img :src="require('../assets/images/products/UX-D860S.png')"></v-img>
-                    <v-card-text class="text-xs-center">UX-D860S</v-card-text>
-                </v-card>
-            </v-flex>
-            <v-flex xs4>
-                <v-card flat>
-                    <v-img :src="require('../assets/images/products/UX-D110S.png')"></v-img>
-                    <v-card-text class="text-xs-center">UX-D110S</v-card-text>
-                </v-card>
-            </v-flex>
-        </v-layout>
-      </v-container>
-
+      
+      <v-tabs fixed-tabs slider-color="pink" color="pink lighten-5" v-model="tabs">
+          <v-tab v-for="(i,index) in products" :key="index" :href="`#tab-${index}`">{{i.name}}</v-tab>
+      </v-tabs>
+      
       <v-container fluid>
-        <v-list dense>
-          <v-list-tile ripple @click="">
-            <v-list-tile-content>
-              <h2>G系列</h2>
-            </v-list-tile-content>
-            <v-list-tile-action>
-              <v-icon>arrow_forward_ios</v-icon>
-            </v-list-tile-action>
-          </v-list-tile>
-        </v-list>
 
+        <v-tabs-items v-model="tabs">
+          <v-tab-item v-for="(i,index) in products" :key='index' :value="`tab-${index}`">
+            <v-card flat>
+              <h2>{{i.name}}</h2>
+              <v-card-text>{{i.text}}</v-card-text>
+            </v-card>
+          </v-tab-item>
+        </v-tabs-items>
       </v-container>
     </v-content>
   </div>
@@ -79,7 +45,20 @@ export default {
   },
   data () {
     return {
-        currentPrd: "UX-D160S"
+        tabs: null,
+        currentPrd: "UX-D160S",
+        products: [
+          {
+            name: 'UX-D160S',
+            text: 'abc'
+          },{
+            name: 'UX-D860S',
+            text: 'abcdef'
+          },{
+            name: 'UX-D110S',
+            text: '123123123'
+          }
+        ]
     }
   },
   computed: {

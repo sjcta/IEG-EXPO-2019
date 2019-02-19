@@ -1,6 +1,4 @@
-# myvue
-
-Mobile Site For Hitachi-IEG 2019 Expo
+# Mobile Site For Hitachi-IEG 2019 Expo
 
 ## Project setup
 ```
