@@ -19,7 +19,7 @@
             </div>
 
             <div>
-              <v-btn depressed small @click="openDoor" color="primary">Enter</v-btn>
+              <v-btn depressed small @click="openDoor" color="primary">Enter v0.24</v-btn>
             </div>
           </v-layout>
 
@@ -146,7 +146,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #000 url('./assets/bg-01.png') no-repeat top center;
+    background: #000 url('assets/bg-01.png') no-repeat top center;
     background-size: cover;
     z-index: 999;
   }
@@ -164,7 +164,7 @@
     right: 50px;
     width: 120px;
     height: 50px;
-    background:url('./assets/logo.png') no-repeat right top;
+    background:url('assets/logo.png') no-repeat right top;
     background-size: 100%;
   }
   #pop #text {

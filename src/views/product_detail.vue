@@ -22,7 +22,7 @@
                 墨盒式设计，墨水及溶剂更换更方便，避免脏手和墨水遗漏。<br>
                 日立先进技术制造的“溶剂低消耗系统”通过对墨水回路和设备温度的控制，有效减少耗材挥发，在控制耗材用量方面处于业内顶尖地位。
                 </p>
-                <v-img contain :src="require('../assets/images/products/ux-d160s_p1.png')" class="mb-3"></v-img>
+                <v-img :src="require('../assets/images/products/ux-d160s_p1.png')" class="mb-3" contain></v-img>
 
                 <p class="caption">* 和日立现有的设备相比，在相同条件下，UX-B和UX-D的溶剂挥发量减少30% （墨水：1067K，温度：20℃）</p>
               </v-card-text>
