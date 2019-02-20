@@ -7,7 +7,7 @@
           <div id="logo"></div>
 
           <v-layout align-center justify-center id="text" class="text-xs-center white--text">
-            <p class="corp text-xs-center">第100届<br />全国糖酒商品交易会</p>
+            <h1 class="text-xs-center">第100届<br />全国糖酒商品交易会</h1>
             <div class="headline">
                 <h1 class="text-xs-center">日立产机系统（中国）有限公司</h1>
                 <span>出展信息</span>
@@ -19,7 +19,7 @@
             </div>
 
             <div>
-              <v-btn depressed small @click="openDoor" color="primary">Enter v0.3</v-btn>
+              <v-btn depressed small @click="openDoor" color="primary">Enter v0.3.1</v-btn>
             </div>
           </v-layout>
 
@@ -146,7 +146,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #000 url('assets/bg-01.png') no-repeat top center;
+    background: #000 url('assets/images/intro.jpg') no-repeat top center;
     background-size: cover;
     z-index: 999;
   }

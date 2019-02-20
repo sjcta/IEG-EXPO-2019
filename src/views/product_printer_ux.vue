@@ -45,8 +45,9 @@
                 <h2 class="display-2">{{products[1]}}</h2>
               </v-card-title>
               <v-card-text>
-                <v-img :src="require('@/assets/images/products/printer/UX-D860S.png')"></v-img>
                 
+                <v-img :src="require('@/assets/images/products/printer/UX-D860S.png')"></v-img>
+
                 <h3 class="headline mb-4">高速，多行喷印（最多8行）、最大64点阵，90°旋转喷印（竖向喷印），满足不同喷印需求</h3>
                 
                 <ul class="mb-4 list-style-sq">
@@ -76,9 +77,8 @@
                 <h2 class="display-2">{{products[2]}}</h2>
               </v-card-title>
               <v-card-text>
+                
                 <v-img :src="require('@/assets/images/products/printer/UX-D110S.png')"></v-img>
-                
-                
                 
                 <v-container>
                   <v-btn depressed block dark large href="http://www.hitachi.com.cn" :color="$store.state.mainColor">

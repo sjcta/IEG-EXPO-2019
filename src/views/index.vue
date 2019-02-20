@@ -30,7 +30,7 @@
         
         <v-list>
           <v-subheader>信息一览</v-subheader>
-          <!-- <div id="buttonList">
+          <div id="buttonList">
             <v-layout row>
               <v-flex xs12>
                   <v-btn block dark large to="/product" :color="$store.state.mainColor + ' lighten-1'">
@@ -47,7 +47,7 @@
                 </v-btn>
               </v-flex>
             </v-layout>
-          </div> -->
+          </div>
 
           <v-list-tile avatar ripple to="/product" :color="$store.state.mainColor">
             <v-list-tile-avatar>
