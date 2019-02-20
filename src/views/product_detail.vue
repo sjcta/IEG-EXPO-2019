@@ -106,7 +106,6 @@ export default {
   data () {
     return {
         tabs: "tab-" + this.$route.params.id,
-        currentPrd: "UX-D160S",
         products: ['UX-D160S','UX-D860S','UX-D110S']
     }
   },
