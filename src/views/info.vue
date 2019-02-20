@@ -4,13 +4,17 @@
 
     <v-content id="info">
       <v-container fluid>
-          <h1>第100届<br />全国糖酒商品交易会<br />展馆示意图</h1>
+          <h2>第100届全国糖酒商品交易会展馆<br />日立产机系统展台示意图</h2>
 
           <v-layout row wrap class="mb-4 mt-4">
-               <v-flex xs12 class="mb-4">
+               <h3>2号馆</h3>
+               <v-flex xs12 class="mb-4 mt-4">
                     <v-img :src="require(`@/assets/images/info/map1.jpg`)"></v-img>
                </v-flex>
-               <v-flex xs6 offset-xs3>
+
+               
+               <h3>日立产机系统展台位置：D-049T</h3>
+               <v-flex xs6 offset-xs3 class="mb-4 mt-4">
                     <v-img :src="require(`@/assets/images/info/map2.png`)"></v-img>
                </v-flex>
           </v-layout>

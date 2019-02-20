@@ -12,7 +12,7 @@
               </v-card-title>
               <v-card-text>
                 <v-container>
-                  <v-img :src="require('@/assets/images/products/printer/g_p4.png')" class="mb-3" contain></v-img>
+                  <v-img :src="require('@/assets/images/products/printer/g.png')" class="mb-3" contain></v-img>
                 </v-container>
 
                 <h3 class="headline mb-4">采用墨盒式墨水和溶剂，操作方便，节能环保。</h3>

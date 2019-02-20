@@ -19,7 +19,7 @@
             </div>
 
             <div>
-              <v-btn depressed small @click="openDoor" color="primary">Enter v0.2.9</v-btn>
+              <v-btn depressed small @click="openDoor" color="primary">Enter v0.3</v-btn>
             </div>
           </v-layout>
 
@@ -219,6 +219,14 @@
     text-align: justify;
     text-justify: distribute-all-lines;
     text-align-last: justify;
+  }
+
+
+  h2 span {
+    display: block;
+    color: #999;
+    font-size: 80%;
+    line-height: 2;
   }
 </style>
 

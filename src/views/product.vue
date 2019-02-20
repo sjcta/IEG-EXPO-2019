@@ -6,6 +6,8 @@
 
       <v-container fluid>
         <v-list>
+          <v-subheader>出展产品一览</v-subheader>
+
           <v-list-tile ripple @click="showProduct('/product/printer/')">
             <v-list-tile-content>
               <h2>喷码机</h2>

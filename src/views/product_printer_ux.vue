@@ -78,42 +78,7 @@
               <v-card-text>
                 <v-img :src="require('@/assets/images/products/printer/UX-D110S.png')"></v-img>
                 
-                <ul class="mb-4 list-style-sq">
-                  <li>配备高速、高清的数码振镜。（仅限高端机型）</li>
-                  <li>编码器使用时，可自动检测印字对象是静止状态或移动状态。</li>
-                  <li>设计安全符合IEC60825标准。<br />装有激光发射信号灯，激光发射状态一目了然。</li>
-                  <li>适宜使用环境的保护构造：IP54。</li>
-                  <li>丰富的日历功能。</li>
-                  <li>配备合成编码。</li>
-                  <li>配备自动快门。</li>
-                  <li>配备紧急停机开关。</li>
-                  <li>配备使用于玻璃和透明物的点阵。</li>
-                </ul>
-
-                <v-layout row wrap class="mb-4">
-                  <v-flex xs6 class="imgList">
-                    <v-img :src="require(`@/assets/images/products/printer/ux-d110s_p1.jpg`)"></v-img>
-                    在化妆品外盒上印字
-                  </v-flex>
-                  <v-flex xs6 class="imgList">
-                    <v-img :src="require(`@/assets/images/products/printer/ux-d110s_p2.jpg`)"></v-img>
-                    在瓶子、玻璃表面印字
-                  </v-flex>
-                  <v-flex xs6 class="imgList">
-                    <v-img :src="require(`@/assets/images/products/printer/ux-d110s_p3.jpg`)"></v-img>
-                    在光滑的电子主板上印字
-                  </v-flex>
-                  <v-flex xs6 class="imgList">
-                    <v-img :src="require(`@/assets/images/products/printer/ux-d110s_p4.jpg`)"></v-img>
-                    在CD·DVD等光盘上印字
-                  </v-flex>
-                  <v-flex xs6 class="imgList">
-                    <v-img :src="require(`@/assets/images/products/printer/ux-d110s_p5.jpg`)"></v-img>
-                  </v-flex>
-                  <v-flex xs6 class="imgList">
-                    <v-img :src="require(`@/assets/images/products/printer/ux-d110s_p6.jpg`)"></v-img>
-                  </v-flex>
-                </v-layout>
+                
                 
                 <v-container>
                   <v-btn depressed block dark large href="http://www.hitachi.com.cn" :color="$store.state.mainColor">

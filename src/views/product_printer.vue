@@ -55,6 +55,16 @@
           </v-list-tile>
         </v-list>
 
+        <v-layout row>
+            <v-flex xs4>
+                <v-card flat @click="showProduct('g')">
+                    <v-img :src="require('@/assets/images/products/printer/g.png')"></v-img>
+                    <v-card-text class="text-xs-center">
+                      <v-btn block flat>G系列<v-icon :color="$store.state.mainColor" small dark>arrow_forward_ios</v-icon></v-btn>
+                    </v-card-text>
+                </v-card>
+            </v-flex>
+        </v-layout>
       </v-container>
     </v-content>
   </div>
@@ -67,6 +77,9 @@
 .v-image {
     padding: 5px;
     background-size: 60%;
+}
+.v-card__actions {
+  background-color: #FFF;
 }
 .v-list{
     border-bottom: 1px solid #ccc;
