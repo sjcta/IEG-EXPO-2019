@@ -19,7 +19,7 @@
             </div>
 
             <div>
-              <v-btn depressed small @click="openDoor" color="primary">Enter v0.2.6</v-btn>
+              <v-btn depressed small @click="openDoor" color="primary">Enter v0.2.7</v-btn>
             </div>
           </v-layout>
 
@@ -239,12 +239,9 @@ export default {
             }
   },
   mounted () {
-    //console.log(this.$store.state.showDoor)
+    console.log(this.$store.state.showDoor)
   },
   computed: {
-    isLangSet() {
-      return this.$vuetify.lang.current!="" ? true:false;
-    },
     doorState() {
       return this.$store.state.showDoor
     }

@@ -26,8 +26,15 @@
                 <v-img :src="require('@/assets/images/products/ux-d160s_p1.png')" class="mb-3" contain></v-img>
 
                 <p class="caption mb-3">* 和日立现有的设备相比，在相同条件下，UX-B和UX-D的溶剂挥发量减少30% （墨水：1067K，温度：20℃）</p>
+                <v-container>
+                  <v-img :src="require('@/assets/images/products/ux-d160s_p2.png')" class="mb-3" contain></v-img>
+                </v-container>
 
-                <v-img :src="require('@/assets/images/products/ux-d160s_p2.png')" class="mb-3" contain></v-img>
+                <v-container>
+                  <v-btn depressed block dark large href="http://www.hitachi.com.cn" :color="$store.state.mainColor">
+                    <span class="text-capitalize">了解更多</span>
+                  </v-btn>
+                </v-container>
               </v-card-text>
             </v-card>
           </v-tab-item>

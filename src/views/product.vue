@@ -42,7 +42,7 @@
 
       <v-container fluid>
         <v-list dense>
-          <v-list-tile ripple @click="">
+          <v-list-tile ripple>
             <v-list-tile-content>
               <h2>G系列</h2>
             </v-list-tile-content>
