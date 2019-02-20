@@ -10,9 +10,6 @@ export default new Vuex.Store({
     mainColor: 'pink'
   },
   getters: {
-    getPanelById: (state) => (id) => {
-      return state.panelInfo.find(p => p.id === id)
-    }
   },
   mutations: {
     setTransition (state, states) {

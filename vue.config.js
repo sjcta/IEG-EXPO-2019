@@ -1,4 +1,5 @@
 // vue.config.js
+
 module.exports = {
   devServer: {
     overlay: {
@@ -6,7 +7,6 @@ module.exports = {
       errors: true
     }
   },
-
   baseUrl: '/',
   lintOnSave: false,
   outputDir: undefined,

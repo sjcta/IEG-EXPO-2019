@@ -113,19 +113,6 @@
     position: fixed;
 
   }
-  .theme--light.application:before {
-    content: ' ';
-    position: fixed;
-    z-index: -1;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: #fff;
-  }
-  .theme--light.application {
-    background: none;
-  }
   footer {
     border-top: 1px solid #eee;
   }

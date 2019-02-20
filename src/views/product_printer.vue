@@ -18,7 +18,11 @@
         <v-layout row>
             <v-flex xs4>
                 <v-card flat @click="showProduct('ux/0')">
-                    <v-img :src="require('@/assets/images/products/printer/UX-D160S.png')"></v-img>
+                    <v-img :src="require(`@/assets/images/products/printer/UX-D160S.jpg`)">
+                      <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
+                        <v-progress-circular indeterminate color="grey"></v-progress-circular>
+                      </v-layout>
+                    </v-img>
                     <v-card-text class="text-xs-center">
                       <v-btn block flat>UX-D160S<v-icon :color="$store.state.mainColor" small dark>arrow_forward_ios</v-icon></v-btn>
                     </v-card-text>
@@ -26,7 +30,11 @@
             </v-flex>
             <v-flex xs4>
                 <v-card flat @click="showProduct('ux/1')">
-                    <v-img :src="require('@/assets/images/products/printer/UX-D860S.png')"></v-img>
+                    <v-img :src="require('@/assets/images/products/printer/UX-D860S.png')">
+                      <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
+                        <v-progress-circular indeterminate color="grey"></v-progress-circular>
+                      </v-layout>
+                    </v-img>
                     <v-card-text class="text-xs-center">
                       <v-btn block flat>UX-D860S<v-icon :color="$store.state.mainColor" small dark>arrow_forward_ios</v-icon></v-btn>
                     </v-card-text>
@@ -34,7 +42,11 @@
             </v-flex>
             <v-flex xs4>
                 <v-card flat @click="showProduct('ux/2')">
-                    <v-img :src="require('@/assets/images/products/printer/UX-D110S.png')"></v-img>
+                    <v-img :src="require('@/assets/images/products/printer/UX-D110S.png')">
+                      <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
+                        <v-progress-circular indeterminate color="grey"></v-progress-circular>
+                      </v-layout>
+                    </v-img>
                     <v-card-text class="text-xs-center">
                       <v-btn block flat>UX-D110S<v-icon :color="$store.state.mainColor" small dark>arrow_forward_ios</v-icon></v-btn>
                     </v-card-text>
