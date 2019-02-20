@@ -26,6 +26,7 @@
                 <v-img :src="require('@/assets/images/products/ux-d160s_p1.png')" class="mb-3" contain></v-img>
 
                 <p class="caption mb-3">* 和日立现有的设备相比，在相同条件下，UX-B和UX-D的溶剂挥发量减少30% （墨水：1067K，温度：20℃）</p>
+
                 <v-container>
                   <v-img :src="require('@/assets/images/products/ux-d160s_p2.png')" class="mb-3" contain></v-img>
                 </v-container>
@@ -48,7 +49,7 @@
                 
                 <h3 class="headline mb-4">高速，多行喷印（最多8行）、最大64点阵，90°旋转喷印（竖向喷印），满足不同喷印需求</h3>
                 
-                <ul class="mb-4">
+                <ul class="mb-4 list-style-sq">
                   <li>可同时喷印行数达到8行。日立独有的喷印调节方式，即使多行印刷也可以确保清晰美观</li>
                   <li>单个喷头32点阵，最大可达64点阵印刷。适用于钢板建材上的大文字印刷，并可对文字标识等进行自由编辑。</li>
                   <li>喷印方向可进行90°旋转调节，最多可喷印12文字。</li>
@@ -57,7 +58,15 @@
 
                 <p class="caption mb-3">*1 和我司单喷嘴机型（UX-D660J）对比</p>
 
-                <v-img :src="require('@/assets/images/products/ux-d860s_p1.png')" class="mb-3" contain></v-img>
+                <v-container>
+                  <v-img :src="require('@/assets/images/products/ux-d860s_p1.png')" class="mb-3" contain></v-img>
+                </v-container>
+                
+                <v-container>
+                  <v-btn depressed block dark large href="http://www.hitachi.com.cn" :color="$store.state.mainColor">
+                    <span class="text-capitalize">了解更多</span>
+                  </v-btn>
+                </v-container>
               </v-card-text>
             </v-card>
           </v-tab-item>
@@ -69,18 +78,49 @@
               <v-card-text>
                 <v-img :src="require('@/assets/images/products/UX-D110S.png')"></v-img>
                 
-                <h3 class="headline mb-4">高速，多行喷印（最多8行）、最大64点阵，90°旋转喷印（竖向喷印），满足不同喷印需求</h3>
-                
-                <ul class="mb-4">
-                  <li>可同时喷印行数达到8行。日立独有的喷印调节方式，即使多行印刷也可以确保清晰美观</li>
-                  <li>单个喷头32点阵，最大可达64点阵印刷。适用于钢板建材上的大文字印刷，并可对文字标识等进行自由编辑。</li>
-                  <li>喷印方向可进行90°旋转调节，最多可喷印12文字。</li>
-                  <li>搭载双喷嘴，将印刷速度提高一倍*1。</li>
+                <ul class="mb-4 list-style-sq">
+                  <li>配备高速、高清的数码振镜。（仅限高端机型）</li>
+                  <li>编码器使用时，可自动检测印字对象是静止状态或移动状态。</li>
+                  <li>设计安全符合IEC60825标准。<br />装有激光发射信号灯，激光发射状态一目了然。</li>
+                  <li>适宜使用环境的保护构造：IP54。</li>
+                  <li>丰富的日历功能。</li>
+                  <li>配备合成编码。</li>
+                  <li>配备自动快门。</li>
+                  <li>配备紧急停机开关。</li>
+                  <li>配备使用于玻璃和透明物的点阵。</li>
                 </ul>
 
-                <p class="caption mb-3">*1 和我司单喷嘴机型（UX-D660J）对比</p>
+                <v-layout row wrap class="mb-4">
+                  <v-flex xs6 class="imgList">
+                    <v-img :src="require(`@/assets/images/products/ux-d110s_p1.jpg`)"></v-img>
+                    在化妆品外盒上印字
+                  </v-flex>
+                  <v-flex xs6 class="imgList">
+                    <v-img :src="require(`@/assets/images/products/ux-d110s_p2.jpg`)"></v-img>
+                    在瓶子、玻璃表面印字
+                  </v-flex>
+                  <v-flex xs6 class="imgList">
+                    <v-img :src="require(`@/assets/images/products/ux-d110s_p3.jpg`)"></v-img>
+                    在光滑的电子主板上印字
+                  </v-flex>
+                  <v-flex xs6 class="imgList">
+                    <v-img :src="require(`@/assets/images/products/ux-d110s_p4.jpg`)"></v-img>
+                    在CD·DVD等光盘上印字
+                  </v-flex>
+                  <v-flex xs6 class="imgList">
+                    <v-img :src="require(`@/assets/images/products/ux-d110s_p5.jpg`)"></v-img>
+                  </v-flex>
+                  <v-flex xs6 class="imgList">
+                    <v-img :src="require(`@/assets/images/products/ux-d110s_p6.jpg`)"></v-img>
+                  </v-flex>
+                </v-layout>
+                
+                <v-container>
+                  <v-btn depressed block dark large href="http://www.hitachi.com.cn" :color="$store.state.mainColor">
+                    <span class="text-capitalize">了解更多</span>
+                  </v-btn>
+                </v-container>
 
-                <v-img :src="require('@/assets/images/products/ux-d860s_p1.png')" class="mb-3" contain></v-img>
               </v-card-text>
             </v-card>
           </v-tab-item>
@@ -90,9 +130,13 @@
   </div>
 </template>
 
-<style scoped>
-.v-tabs__item--active * {
-  color: red;
+<style>
+.list-style-sq {
+  list-style-type: square;
+}
+.imgList {
+  padding: 5px;
+  line-height: 2;
 }
 </style>
 

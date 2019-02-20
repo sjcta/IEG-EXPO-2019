@@ -61,7 +61,7 @@
             </v-list-tile-action>
           </v-list-tile>
 
-          <v-list-tile avatar ripple :color="$store.state.mainColor">
+          <v-list-tile avatar ripple to="/info" :color="$store.state.mainColor">
             <v-list-tile-avatar>
               <v-icon left :color="$store.state.mainColor">map</v-icon>
             </v-list-tile-avatar>
