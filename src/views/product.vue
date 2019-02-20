@@ -13,8 +13,8 @@
         </v-list>
 
         <v-layout row>
-            <v-flex xs4 @click="showProduct(0)">
-                <v-card flat>
+            <v-flex xs4>
+                <v-card flat @click="showProduct(0)">
                     <v-img :src="require('@/assets/images/products/UX-D160S.png')"></v-img>
                     <v-card-text class="text-xs-center">
                       <v-btn block flat>UX-D160S<v-icon color="pink" small dark>arrow_forward_ios</v-icon></v-btn>
