@@ -332,7 +332,5 @@ ASALocalRun/
 .mfractor/
 
 # Local History for Visual Studio
+.DS_Store
 .localhistory/
-src/.DS_Store
-dist/.DS_Store
-src/assets/.DS_Store

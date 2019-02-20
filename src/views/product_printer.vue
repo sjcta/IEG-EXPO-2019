@@ -18,7 +18,7 @@
         <v-layout row>
             <v-flex xs4 v-for="(i,index) in productUX" :key="index">
                 <v-card flat @click="showProduct('ux/'+index)">
-                    <v-img :src="require(`@/assets/images/products/printer/${i}.jpg`)" aspect-ratio="1">
+                    <v-img :src="require(`@/assets/images/products/printer/${i}.png`)" aspect-ratio="1">
                       <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
                         <v-progress-circular indeterminate color="grey"></v-progress-circular>
                       </v-layout>
