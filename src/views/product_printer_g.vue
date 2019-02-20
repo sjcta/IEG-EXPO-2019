@@ -2,7 +2,7 @@
   <div>
     <headerBar>G系列</headerBar>
 
-    <v-content id="productList">
+    <v-content>
       
       <v-container fluid>
 
@@ -48,16 +48,6 @@
 </template>
 
 <style>
-.list-style-sq {
-  list-style-type: square;
-}
-.imgList {
-  padding: 5px;
-  line-height: 1.5;
-}
-.imgList .v-image {
-    margin-bottom: 5px;
-}
 </style>
 
 <script>

@@ -11,7 +11,7 @@
               <h2>喷码机</h2>
             </v-list-tile-content>
             <v-list-tile-action>
-              <v-icon>arrow_forward_ios</v-icon>
+              <v-icon :color="$store.state.mainColor">arrow_forward_ios</v-icon>
             </v-list-tile-action>
           </v-list-tile>
         </v-list>
@@ -22,7 +22,7 @@
               <h2>检测机</h2>
             </v-list-tile-content>
             <v-list-tile-action>
-              <v-icon>arrow_forward_ios</v-icon>
+              <v-icon :color="$store.state.mainColor">arrow_forward_ios</v-icon>
             </v-list-tile-action>
           </v-list-tile>
         </v-list>
@@ -33,7 +33,7 @@
               <h2>激光机</h2>
             </v-list-tile-content>
             <v-list-tile-action>
-              <v-icon>arrow_forward_ios</v-icon>
+              <v-icon :color="$store.state.mainColor">arrow_forward_ios</v-icon>
             </v-list-tile-action>
           </v-list-tile>
         </v-list>
@@ -44,7 +44,7 @@
               <h2>空压机</h2>
             </v-list-tile-content>
             <v-list-tile-action>
-              <v-icon>arrow_forward_ios</v-icon>
+              <v-icon :color="$store.state.mainColor">arrow_forward_ios</v-icon>
             </v-list-tile-action>
           </v-list-tile>
 

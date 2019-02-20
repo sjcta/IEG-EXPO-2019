@@ -29,11 +29,6 @@ export default new Router({
       component: productPrinter
     },
     {
-      path: '/info',
-      name: 'infoPage',
-      component: info
-    },
-    {
       path: '/product/printer/ux/:id',
       name: 'productPrinterUXPage',
       component: productPrinterUX
@@ -42,6 +37,11 @@ export default new Router({
       path: '/product/printer/g/',
       name: 'productDPrinterGPage',
       component: productPrinterG
+    },
+    {
+      path: '/info',
+      name: 'infoPage',
+      component: info
     }
   ]
 })

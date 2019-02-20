@@ -4,7 +4,7 @@
 
     <v-content id="info">
       <v-container fluid>
-          <h1>第100届全国糖酒商品交易会<br />展馆示意图</h1>
+          <h1>第100届<br />全国糖酒商品交易会<br />展馆示意图</h1>
 
           <v-layout row wrap class="mb-4 mt-4">
                <v-flex xs12 class="mb-4">

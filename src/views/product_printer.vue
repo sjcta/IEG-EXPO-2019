@@ -5,12 +5,12 @@
     <v-content id="productList">
       <v-container fluid class="group">
         <v-list dense>
-          <v-list-tile ripple @click="showProduct('ux/0')" color="pink">
+          <v-list-tile ripple @click="showProduct('ux/0')">
             <v-list-tile-content>
               <h2>UX系列</h2>
             </v-list-tile-content>
             <v-list-tile-action>
-              <v-icon color="pink">arrow_forward_ios</v-icon>
+              <v-icon :color="$store.state.mainColor">arrow_forward_ios</v-icon>
             </v-list-tile-action>
           </v-list-tile>
         </v-list>
@@ -20,7 +20,7 @@
                 <v-card flat @click="showProduct('ux/0')">
                     <v-img :src="require('@/assets/images/products/printer/UX-D160S.png')"></v-img>
                     <v-card-text class="text-xs-center">
-                      <v-btn block flat>UX-D160S<v-icon color="pink" small dark>arrow_forward_ios</v-icon></v-btn>
+                      <v-btn block flat>UX-D160S<v-icon :color="$store.state.mainColor" small dark>arrow_forward_ios</v-icon></v-btn>
                     </v-card-text>
                 </v-card>
             </v-flex>
@@ -28,7 +28,7 @@
                 <v-card flat @click="showProduct('ux/1')">
                     <v-img :src="require('@/assets/images/products/printer/UX-D860S.png')"></v-img>
                     <v-card-text class="text-xs-center">
-                      <v-btn block flat>UX-D860S<v-icon color="pink" small dark>arrow_forward_ios</v-icon></v-btn>
+                      <v-btn block flat>UX-D860S<v-icon :color="$store.state.mainColor" small dark>arrow_forward_ios</v-icon></v-btn>
                     </v-card-text>
                 </v-card>
             </v-flex>
@@ -36,7 +36,7 @@
                 <v-card flat @click="showProduct('ux/2')">
                     <v-img :src="require('@/assets/images/products/printer/UX-D110S.png')"></v-img>
                     <v-card-text class="text-xs-center">
-                      <v-btn block flat>UX-D110S<v-icon color="pink" small dark>arrow_forward_ios</v-icon></v-btn>
+                      <v-btn block flat>UX-D110S<v-icon :color="$store.state.mainColor" small dark>arrow_forward_ios</v-icon></v-btn>
                     </v-card-text>
                 </v-card>
             </v-flex>
@@ -45,12 +45,12 @@
 
       <v-container fluid>
         <v-list dense>
-          <v-list-tile ripple @click="showProduct('g')" color="pink">
+          <v-list-tile ripple @click="showProduct('g')">
             <v-list-tile-content>
               <h2>G系列</h2>
             </v-list-tile-content>
             <v-list-tile-action>
-              <v-icon color="pink">arrow_forward_ios</v-icon>
+              <v-icon :color="$store.state.mainColor">arrow_forward_ios</v-icon>
             </v-list-tile-action>
           </v-list-tile>
         </v-list>

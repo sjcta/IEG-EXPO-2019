@@ -1,5 +1,5 @@
 <template>
-    <v-toolbar app dark tabs fixed color='pink'>
+    <v-toolbar app dark tabs fixed :color='$store.state.mainColor'>
         <v-btn right flat @click="back">
           <v-icon>arrow_back_ios</v-icon>
         </v-btn>
