@@ -5,7 +5,7 @@
     <v-content id="productList">
 
       <v-container fluid>
-        <v-list dense>
+        <v-list>
           <v-list-tile ripple @click="showProduct('/product/printer/')">
             <v-list-tile-content>
               <h2>喷码机</h2>
@@ -16,7 +16,7 @@
           </v-list-tile>
         </v-list>
         
-        <v-list dense>
+        <v-list>
           <v-list-tile ripple @click="showProduct('/product/detecter/')">
             <v-list-tile-content>
               <h2>检测机</h2>
@@ -27,7 +27,7 @@
           </v-list-tile>
         </v-list>
         
-        <v-list dense>
+        <v-list>
           <v-list-tile ripple @click="showProduct('/product/laser/')">
             <v-list-tile-content>
               <h2>激光机</h2>
@@ -38,7 +38,7 @@
           </v-list-tile>
         </v-list>
         
-        <v-list dense>
+        <v-list>
           <v-list-tile ripple @click="showProduct('/product/ac/')">
             <v-list-tile-content>
               <h2>空压机</h2>

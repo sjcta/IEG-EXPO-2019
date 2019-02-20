@@ -5,10 +5,13 @@
     <v-content id="productList">
       <v-container fluid class="group">
         <v-list dense>
-          <v-list-tile ripple>
+          <v-list-tile ripple @click="showProduct('ux/0')" color="pink">
             <v-list-tile-content>
               <h2>UX系列</h2>
             </v-list-tile-content>
+            <v-list-tile-action>
+              <v-icon color="pink">arrow_forward_ios</v-icon>
+            </v-list-tile-action>
           </v-list-tile>
         </v-list>
 
@@ -42,12 +45,12 @@
 
       <v-container fluid>
         <v-list dense>
-          <v-list-tile ripple @click="showProduct('g')">
+          <v-list-tile ripple @click="showProduct('g')" color="pink">
             <v-list-tile-content>
               <h2>G系列</h2>
             </v-list-tile-content>
             <v-list-tile-action>
-              <v-icon>arrow_forward_ios</v-icon>
+              <v-icon color="pink">arrow_forward_ios</v-icon>
             </v-list-tile-action>
           </v-list-tile>
         </v-list>
