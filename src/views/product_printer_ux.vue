@@ -16,19 +16,19 @@
                 <h2 class="display-2">{{products[0]}}</h2>
               </v-card-title>
               <v-card-text>
-                <v-img :src="require('@/assets/images/products/UX-D160S.png')"></v-img>
+                <v-img :src="require('@/assets/images/products/printer/UX-D160S.png')"></v-img>
 
                 <h3 class="headline mb-4">日立独创的“溶剂低消耗系统”，显著降低客户的运行成本</h3>
                 <p>
                 墨盒式设计，墨水及溶剂更换更方便，避免脏手和墨水遗漏。<br>
                 日立先进技术制造的“溶剂低消耗系统”通过对墨水回路和设备温度的控制，有效减少耗材挥发，在控制耗材用量方面处于业内顶尖地位。
                 </p>
-                <v-img :src="require('@/assets/images/products/ux-d160s_p1.png')" class="mb-3" contain></v-img>
+                <v-img :src="require('@/assets/images/products/printer/ux-d160s_p1.png')" class="mb-3" contain></v-img>
 
                 <p class="caption mb-3">* 和日立现有的设备相比，在相同条件下，UX-B和UX-D的溶剂挥发量减少30% （墨水：1067K，温度：20℃）</p>
 
                 <v-container>
-                  <v-img :src="require('@/assets/images/products/ux-d160s_p2.png')" class="mb-3" contain></v-img>
+                  <v-img :src="require('@/assets/images/products/printer/ux-d160s_p2.png')" class="mb-3" contain></v-img>
                 </v-container>
 
                 <v-container>
@@ -45,7 +45,7 @@
                 <h2 class="display-2">{{products[1]}}</h2>
               </v-card-title>
               <v-card-text>
-                <v-img :src="require('@/assets/images/products/UX-D860S.png')"></v-img>
+                <v-img :src="require('@/assets/images/products/printer/UX-D860S.png')"></v-img>
                 
                 <h3 class="headline mb-4">高速，多行喷印（最多8行）、最大64点阵，90°旋转喷印（竖向喷印），满足不同喷印需求</h3>
                 
@@ -59,7 +59,7 @@
                 <p class="caption mb-3">*1 和我司单喷嘴机型（UX-D660J）对比</p>
 
                 <v-container>
-                  <v-img :src="require('@/assets/images/products/ux-d860s_p1.png')" class="mb-3" contain></v-img>
+                  <v-img :src="require('@/assets/images/products/printer/ux-d860s_p1.png')" class="mb-3" contain></v-img>
                 </v-container>
                 
                 <v-container>
@@ -76,7 +76,7 @@
                 <h2 class="display-2">{{products[2]}}</h2>
               </v-card-title>
               <v-card-text>
-                <v-img :src="require('@/assets/images/products/UX-D110S.png')"></v-img>
+                <v-img :src="require('@/assets/images/products/printer/UX-D110S.png')"></v-img>
                 
                 <ul class="mb-4 list-style-sq">
                   <li>配备高速、高清的数码振镜。（仅限高端机型）</li>
@@ -92,26 +92,26 @@
 
                 <v-layout row wrap class="mb-4">
                   <v-flex xs6 class="imgList">
-                    <v-img :src="require(`@/assets/images/products/ux-d110s_p1.jpg`)"></v-img>
+                    <v-img :src="require(`@/assets/images/products/printer/ux-d110s_p1.jpg`)"></v-img>
                     在化妆品外盒上印字
                   </v-flex>
                   <v-flex xs6 class="imgList">
-                    <v-img :src="require(`@/assets/images/products/ux-d110s_p2.jpg`)"></v-img>
+                    <v-img :src="require(`@/assets/images/products/printer/ux-d110s_p2.jpg`)"></v-img>
                     在瓶子、玻璃表面印字
                   </v-flex>
                   <v-flex xs6 class="imgList">
-                    <v-img :src="require(`@/assets/images/products/ux-d110s_p3.jpg`)"></v-img>
+                    <v-img :src="require(`@/assets/images/products/printer/ux-d110s_p3.jpg`)"></v-img>
                     在光滑的电子主板上印字
                   </v-flex>
                   <v-flex xs6 class="imgList">
-                    <v-img :src="require(`@/assets/images/products/ux-d110s_p4.jpg`)"></v-img>
+                    <v-img :src="require(`@/assets/images/products/printer/ux-d110s_p4.jpg`)"></v-img>
                     在CD·DVD等光盘上印字
                   </v-flex>
                   <v-flex xs6 class="imgList">
-                    <v-img :src="require(`@/assets/images/products/ux-d110s_p5.jpg`)"></v-img>
+                    <v-img :src="require(`@/assets/images/products/printer/ux-d110s_p5.jpg`)"></v-img>
                   </v-flex>
                   <v-flex xs6 class="imgList">
-                    <v-img :src="require(`@/assets/images/products/ux-d110s_p6.jpg`)"></v-img>
+                    <v-img :src="require(`@/assets/images/products/printer/ux-d110s_p6.jpg`)"></v-img>
                   </v-flex>
                 </v-layout>
                 

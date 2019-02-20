@@ -3,56 +3,54 @@
     <headerBar>出展产品</headerBar>
 
     <v-content id="productList">
-      <v-container fluid class="group">
-        <v-list dense>
-          <v-list-tile ripple>
-            <v-list-tile-content>
-              <h2>UX系列</h2>
-            </v-list-tile-content>
-          </v-list-tile>
-        </v-list>
-
-        <v-layout row>
-            <v-flex xs4>
-                <v-card flat @click="showProduct('ux/0')">
-                    <v-img :src="require('@/assets/images/products/UX-D160S.png')"></v-img>
-                    <v-card-text class="text-xs-center">
-                      <v-btn block flat>UX-D160S<v-icon color="pink" small dark>arrow_forward_ios</v-icon></v-btn>
-                    </v-card-text>
-                </v-card>
-            </v-flex>
-            <v-flex xs4>
-                <v-card flat @click="showProduct('ux/1')">
-                    <v-img :src="require('@/assets/images/products/UX-D860S.png')"></v-img>
-                    <v-card-text class="text-xs-center">
-                      <v-btn block flat>UX-D860S<v-icon color="pink" small dark>arrow_forward_ios</v-icon></v-btn>
-                    </v-card-text>
-                </v-card>
-            </v-flex>
-            <v-flex xs4>
-                <v-card flat @click="showProduct('ux/2')">
-                    <v-img :src="require('@/assets/images/products/UX-D110S.png')"></v-img>
-                    <v-card-text class="text-xs-center">
-                      <v-btn block flat>UX-D110S<v-icon color="pink" small dark>arrow_forward_ios</v-icon></v-btn>
-                    </v-card-text>
-                </v-card>
-            </v-flex>
-        </v-layout>
-      </v-container>
 
       <v-container fluid>
         <v-list dense>
-          <v-list-tile ripple @click="showProduct('g')">
+          <v-list-tile ripple @click="showProduct('/product/printer/')">
             <v-list-tile-content>
-              <h2>G系列</h2>
+              <h2>喷码机</h2>
             </v-list-tile-content>
             <v-list-tile-action>
               <v-icon>arrow_forward_ios</v-icon>
             </v-list-tile-action>
           </v-list-tile>
         </v-list>
+        
+        <v-list dense>
+          <v-list-tile ripple @click="showProduct('/product/detecter/')">
+            <v-list-tile-content>
+              <h2>检测机</h2>
+            </v-list-tile-content>
+            <v-list-tile-action>
+              <v-icon>arrow_forward_ios</v-icon>
+            </v-list-tile-action>
+          </v-list-tile>
+        </v-list>
+        
+        <v-list dense>
+          <v-list-tile ripple @click="showProduct('/product/laser/')">
+            <v-list-tile-content>
+              <h2>激光机</h2>
+            </v-list-tile-content>
+            <v-list-tile-action>
+              <v-icon>arrow_forward_ios</v-icon>
+            </v-list-tile-action>
+          </v-list-tile>
+        </v-list>
+        
+        <v-list dense>
+          <v-list-tile ripple @click="showProduct('/product/ac/')">
+            <v-list-tile-content>
+              <h2>空压机</h2>
+            </v-list-tile-content>
+            <v-list-tile-action>
+              <v-icon>arrow_forward_ios</v-icon>
+            </v-list-tile-action>
+          </v-list-tile>
 
+        </v-list>
       </v-container>
+
     </v-content>
   </div>
 </template>
@@ -86,7 +84,7 @@ export default {
   methods: {
     showProduct (prd) {
 
-      this.$router.push('/product/detail/' + prd + '/')
+      this.$router.push(prd)
     }
   }
 };
