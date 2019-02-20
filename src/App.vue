@@ -19,7 +19,7 @@
             </div>
 
             <div>
-              <v-btn depressed small @click="openDoor" color="primary">Enter v0.3.2</v-btn>
+              <v-btn depressed small @click="openDoor" color="primary">Enter v0.3.3</v-btn>
             </div>
           </v-layout>
 
@@ -208,7 +208,9 @@
     text-align-last: justify;
   }
 
-
+.theme--light.application {
+  background-color: #FFF;
+}
   h2 span {
     display: block;
     color: #999;

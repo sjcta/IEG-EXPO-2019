@@ -5,7 +5,7 @@
     <v-content id="productList">
       
       <v-container fluid>
-        <v-tabs grow fixed-tabs slider-color="pink" v-model="tabs">
+        <v-tabs grow fixed-tabs :slider-color="$store.state.mainColor" v-model="tabs">
             <v-tab v-for="(i,index) in products" :key="index" :href="`#tab-${index}`" active-class="active">{{i}}</v-tab>
         </v-tabs>
 

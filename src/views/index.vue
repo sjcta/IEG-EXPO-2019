@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-toolbar app dark color="pink">
+    <v-toolbar app dark :color="$store.state.mainColor">
       <v-layout align-center justify-space-between row>
           <v-toolbar-title class=" text-uppercase text-xs-center">
             <span class="text-xs-center">日立产机系统</span>
