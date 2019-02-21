@@ -12,7 +12,11 @@
               </v-card-title>
               <v-card-text>
                 <v-container>
-                  <v-img :src="require('@/assets/images/products/printer/g.png')" class="mb-3" contain></v-img>
+                  <v-img :src="require('@/assets/images/products/printer/g.png')" class="mb-3" contain>
+                      <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
+                        <v-progress-circular indeterminate color="grey"></v-progress-circular>
+                      </v-layout>
+                  </v-img>
                 </v-container>
 
                 <h3 class="headline mb-4">采用墨盒式墨水和溶剂，操作方便，节能环保。</h3>
@@ -35,11 +39,9 @@
                 </v-layout>
 
 
-                <v-container>
-                  <v-btn depressed block dark large href="http://www.hitachi.com.cn" :color="$store.state.mainColor">
-                    <span class="text-capitalize">了解更多</span>
-                  </v-btn>
-                </v-container>
+                <v-btn depressed block dark large href="http://www.hitachi-iec.cn/ch/product/print/g/index.html" :color="$store.state.mainColor">
+                  <span class="text-capitalize">了解更多</span>
+                </v-btn>
               </v-card-text>
             </v-card>
       </v-container>

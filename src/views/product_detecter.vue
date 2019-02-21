@@ -13,7 +13,11 @@
               <v-card-text>
 
                 <v-container>
-                  <v-img :src="require('@/assets/images/products/detecter/detecter_p1.jpg')" class="mb-3" contain></v-img>
+                  <v-img :src="require('@/assets/images/products/detecter/detecter_p1.jpg')" class="mb-3" contain>
+                    <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
+                      <v-progress-circular indeterminate color="grey"></v-progress-circular>
+                    </v-layout>
+                  </v-img>
                 </v-container>
 
                 <ul class="mb-4 list-style-sq">
@@ -30,7 +34,7 @@
                 </v-container>
 
                 <v-container>
-                  <v-btn depressed block dark large href="http://www.hitachi.com.cn" :color="$store.state.mainColor">
+                  <v-btn depressed block dark large href="http://www.hitachi-iec.cn/ch/product/print/pd/mc/index.html" :color="$store.state.mainColor">
                     <span class="text-capitalize">了解更多</span>
                   </v-btn>
                 </v-container>

@@ -56,19 +56,19 @@ export default {
         {
           title: '喷码机',
           link: '/product/printer/',
-          avatar: '/printer/ux.png'
+          avatar: '/printer/printer_s.png'
         },{
           title: '检测机',
           link: '/product/detecter/',
-          avatar: '/detecter/detecter_p1.jpg'
+          avatar: '/detecter/detecter_s.png'
         },{
           title: '激光机',
           link: '/product/laser/',
-          avatar: '/laser/laser_p1.jpg'
+          avatar: '/laser/laser_s.png'
         },{
           title: '空压机',
           link: '/product/ac/',
-          avatar: ''
+          avatar: '/ac/ac_s.png'
         }
       ]
     }
@@ -77,7 +77,6 @@ export default {
   },
   methods: {
     showProduct (prd) {
-
       this.$router.push(prd)
     }
   }

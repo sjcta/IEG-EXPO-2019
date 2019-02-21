@@ -12,7 +12,11 @@
               </v-card-title>
               <v-card-text>
 
-                <v-img :src="require(`@/assets/images/products/laser/laser_p1.jpg`)"></v-img>
+                <v-img :src="require(`@/assets/images/products/laser/laser_p1.jpg`)">
+                    <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
+                      <v-progress-circular indeterminate color="grey"></v-progress-circular>
+                    </v-layout>
+                </v-img>
 
                 <ul class="mb-4 mt-4 list-style-sq">
                   <li>配备高速、高清的数码振镜。（仅限高端机型）</li>
@@ -53,7 +57,7 @@
             </v-card>
 
         <v-container>
-            <v-btn depressed block dark large href="http://www.hitachi.com.cn" :color="$store.state.mainColor">
+            <v-btn depressed block dark large href="http://www.hitachi-iec.cn/ch/product/print/jg/index.html" :color="$store.state.mainColor">
             <span class="text-capitalize">了解更多</span>
             </v-btn>
         </v-container>
@@ -63,6 +67,9 @@
 </template>
 
 <style>
+.imgList {
+  font-size: 83%;
+}
 </style>
 
 <script>

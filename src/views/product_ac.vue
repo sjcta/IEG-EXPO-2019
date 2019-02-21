@@ -11,7 +11,16 @@
                 <h2 class="display-2">空压机</h2>
               </v-card-title>
               <v-card-text>
-working...
+
+
+                <v-container>
+                  <v-img :src="require('@/assets/images/products/ac/ac_main.png')" class="mb-3" contain>
+                    <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
+                      <v-progress-circular indeterminate color="grey"></v-progress-circular>
+                    </v-layout>
+                  </v-img>
+                </v-container>
+
               </v-card-text>
             </v-card>
 

@@ -16,7 +16,11 @@
                 <h2 class="display-2">{{products[0]}}</h2>
               </v-card-title>
               <v-card-text>
-                <v-img :src="require('@/assets/images/products/printer/UX-D160S.png')"></v-img>
+                <v-img :src="require('@/assets/images/products/printer/UX-D160S.png')">
+                    <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
+                      <v-progress-circular indeterminate color="grey"></v-progress-circular>
+                    </v-layout>
+                </v-img>
 
                 <h3 class="headline mb-4">日立独创的“溶剂低消耗系统”，显著降低客户的运行成本</h3>
                 <p>
@@ -31,11 +35,9 @@
                   <v-img :src="require('@/assets/images/products/printer/ux-d160s_p2.png')" class="mb-3" contain></v-img>
                 </v-container>
 
-                <v-container>
-                  <v-btn depressed block dark large href="http://www.hitachi.com.cn" :color="$store.state.mainColor">
+                  <v-btn depressed block dark large href="http://www.hitachi-iec.cn/ch/product/print/ux/index.html" :color="$store.state.mainColor">
                     <span class="text-capitalize">了解更多</span>
                   </v-btn>
-                </v-container>
               </v-card-text>
             </v-card>
           </v-tab-item>
@@ -46,7 +48,11 @@
               </v-card-title>
               <v-card-text>
                 
-                <v-img :src="require('@/assets/images/products/printer/UX-D860S.png')"></v-img>
+                <v-img :src="require('@/assets/images/products/printer/UX-D860S.png')">
+                    <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
+                      <v-progress-circular indeterminate color="grey"></v-progress-circular>
+                    </v-layout>
+                </v-img>
 
                 <h3 class="headline mb-4">高速，多行喷印（最多8行）、最大64点阵，90°旋转喷印（竖向喷印），满足不同喷印需求</h3>
                 
@@ -63,11 +69,9 @@
                   <v-img :src="require('@/assets/images/products/printer/ux-d860s_p1.png')" class="mb-3" contain></v-img>
                 </v-container>
                 
-                <v-container>
-                  <v-btn depressed block dark large href="http://www.hitachi.com.cn" :color="$store.state.mainColor">
-                    <span class="text-capitalize">了解更多</span>
-                  </v-btn>
-                </v-container>
+                <v-btn depressed block dark large href="http://www.hitachi-iec.cn/ch/product/print/ux/uxspz/index.html" :color="$store.state.mainColor">
+                  <span class="text-capitalize">了解更多</span>
+                </v-btn>
               </v-card-text>
             </v-card>
           </v-tab-item>
@@ -78,14 +82,15 @@
               </v-card-title>
               <v-card-text>
                 
-                <v-img :src="require('@/assets/images/products/printer/UX-D110S.png')"></v-img>
+                <v-img :src="require('@/assets/images/products/printer/UX-D110S.png')">
+                    <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
+                      <v-progress-circular indeterminate color="grey"></v-progress-circular>
+                    </v-layout>
+                </v-img>
                 
-                <v-container>
-                  <v-btn depressed block dark large href="http://www.hitachi.com.cn" :color="$store.state.mainColor">
-                    <span class="text-capitalize">了解更多</span>
-                  </v-btn>
-                </v-container>
-
+                <v-btn depressed block dark large href="http://www.hitachi-iec.cn/ch/product/print/ux/uxykj/index.html" :color="$store.state.mainColor">
+                  <span class="text-capitalize">了解更多</span>
+                </v-btn>
               </v-card-text>
             </v-card>
           </v-tab-item>
