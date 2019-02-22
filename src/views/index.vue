@@ -41,7 +41,7 @@
                   <v-icon left>map</v-icon>
                   <span class="text-capitalize">展位信息</span>
                 </v-btn>
-                <v-btn block outline large to="/qa" :color="$store.state.mainColor">
+                <v-btn block outline large to="/qa" :color="$store.state.mainColor" v-if="isQA">
                   <v-icon left>contact_support</v-icon>
                   <span class="text-capitalize">问卷调查</span>
                 </v-btn>
@@ -49,42 +49,6 @@
             </v-layout>
           </div>
         </v-list>
-<!-- 
-          <v-list-tile avatar ripple to="/product" :color="$store.state.mainColor">
-            <v-list-tile-avatar>
-              <v-icon left :color="$store.state.mainColor">star</v-icon>
-            </v-list-tile-avatar>
-            <v-list-tile-content>
-              <v-list-tile-title>出展产品</v-list-tile-title>
-            </v-list-tile-content>
-            <v-list-tile-action>
-              <v-icon :color="$store.state.mainColor">arrow_forward_ios</v-icon>
-            </v-list-tile-action>
-          </v-list-tile>
-
-          <v-list-tile avatar ripple to="/info" :color="$store.state.mainColor">
-            <v-list-tile-avatar>
-              <v-icon left :color="$store.state.mainColor">map</v-icon>
-            </v-list-tile-avatar>
-            <v-list-tile-content>
-              <v-list-tile-title>展位信息</v-list-tile-title>
-            </v-list-tile-content>
-            <v-list-tile-action>
-              <v-icon :color="$store.state.mainColor">arrow_forward_ios</v-icon>
-            </v-list-tile-action>
-          </v-list-tile>
-
-          <v-list-tile avatar ripple>
-            <v-list-tile-avatar>
-              <v-icon>contact_support</v-icon>
-            </v-list-tile-avatar>
-            <v-list-tile-content>
-              <v-list-tile-title>问卷调查</v-list-tile-title>
-            </v-list-tile-content>
-            <v-list-tile-action>
-              <v-icon left>arrow_forward_ios</v-icon>
-            </v-list-tile-action>
-          </v-list-tile> -->
 
       </v-container>
     </v-content>
@@ -107,9 +71,10 @@ div.disc {
 
 export default {
   name: "indexPage",
-  mounted(){
-  },
-  methods: {
+  data () {
+    return {
+      isQA: false
+    }
   }
 };
 </script>
