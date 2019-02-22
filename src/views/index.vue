@@ -12,7 +12,7 @@
     <v-content id="indexPage">
       <v-container fluid>
         <v-flex xs12 sm6 offset-sm3>
-          <v-card color="grey lighten-3" flat>
+          <v-card color="grey lighten-3" >
             <v-card-title>
               <div>
                 <h2>日立产机系统出展<br />第100届全国糖酒商品交易会</h2>
@@ -29,7 +29,7 @@
 
         
         <v-list>
-          <v-subheader>信息一览</v-subheader>
+          <v-subheader class="px-0">信息一览</v-subheader>
           <div id="buttonList">
             <v-layout row>
               <v-flex xs12>
@@ -89,9 +89,6 @@
       </v-container>
     </v-content>
 
-    <v-footer class="pa-3" light>
-      <v-flex text-xs-center>© Hitachi, Ltd. 1994, 2019. All rights reserved.</v-flex>
-    </v-footer>
   </div>
 </template>
 

@@ -19,7 +19,7 @@
             </div>
 
             <div>
-              <v-btn depressed small @click="openDoor" color="primary">Enter v0.3.6</v-btn>
+              <v-btn depressed small @click="openDoor" color="primary">Enter v0.3.7</v-btn>
             </div>
           </v-layout>
 
@@ -31,6 +31,10 @@
     <transition name="router-anim">
         <router-view></router-view>
     </transition>
+    
+    <v-footer class="pa-3" light>
+      <v-flex text-xs-center>© Hitachi, Ltd. 1994, 2019. All rights reserved.</v-flex>
+    </v-footer>
   </v-app>
 </template>
 
@@ -211,12 +215,10 @@
 .theme--light.application {
   background-color: #FFF;
 }
-  h2 span {
-    display: block;
-    color: #999;
-    font-size: 80%;
-    line-height: 2;
-  }
+h2 span {
+  color: #999;
+  font-size: 50%;
+}
 </style>
 
 <script>

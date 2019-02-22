@@ -2,9 +2,9 @@
   <div>
     <headerBar>出展产品</headerBar>
 
-    <v-content id="productList">
+    <v-content id="productList" class="mb-5">
 
-      <v-container fluid>
+      <v-container fluid class="mb-5">
         <v-subheader>出展产品一览</v-subheader>
         <v-list v-for="(i,index) in navList" :key="index">
 

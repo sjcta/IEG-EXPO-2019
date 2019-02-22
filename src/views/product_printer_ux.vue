@@ -22,14 +22,14 @@
                     </v-layout>
                 </v-img>
 
-                <h3 class="headline mb-4">日立独创的“溶剂低消耗系统”，显著降低客户的运行成本</h3>
+                <h3 class="headline mb-4">日立独创的<br />“溶剂低消耗系统”，<br />显著降低客户的运行成本</h3>
                 <p>
-                墨盒式设计，墨水及溶剂更换更方便，避免脏手和墨水遗漏。<br>
+                墨盒式设计，墨水及溶剂更换更方便，避免脏手和墨水遗漏。<br><br>
                 日立先进技术制造的“溶剂低消耗系统”通过对墨水回路和设备温度的控制，有效减少耗材挥发，在控制耗材用量方面处于业内顶尖地位。
                 </p>
-                <v-img :src="require('@/assets/images/products/printer/ux-d160s_p1.png')" class="mb-3" contain></v-img>
+                <v-img :src="require('@/assets/images/products/printer/ux-d160s_p1.png')" class="my-4" contain></v-img>
 
-                <p class="caption mb-4">* 和日立现有的设备相比，在相同条件下，UX-B和UX-D的溶剂挥发量减少30% （墨水：1067K，温度：20℃）</p>
+                <p class="caption my-5">* 和日立现有的设备相比，在相同条件下，UX-B和UX-D的溶剂挥发量减少30% （墨水：1067K，温度：20℃）</p>
 
                 <v-btn depressed block dark large href="http://www.hitachi-iec.cn/ch/product/print/ux/index.html" :color="$store.state.mainColor">
                   <span class="text-capitalize">了解更多</span>
@@ -50,7 +50,7 @@
                     </v-layout>
                 </v-img>
 
-                <h3 class="headline mb-4">高速，多行喷印（最多8行）、最大64点阵，90°旋转喷印（竖向喷印），满足不同喷印需求</h3>
+                <h3 class="headline mb-4">高速，多行喷印 (最多8行)、<br />最大64点阵，<br />90°旋转喷印 (竖向喷印)，<br />满足不同喷印需求</h3>
                 
                 <ul class="mb-4 list-style-sq">
                   <li>可同时喷印行数达到8行。日立独有的喷印调节方式，即使多行印刷也可以确保清晰美观</li>
@@ -128,7 +128,7 @@
                   </v-layout>
                 </v-container>
 
-                <v-container class="px-0">
+                <v-container class="px-0 mb-4">
                   <h3>大字机</h3>
                   <p>适用于纸箱、木材、建材等行业</p>
 

@@ -8,7 +8,7 @@
 
             <v-card flat>
               <v-card-title primary-title>
-                <h2 class="display-2">检测机<br/><span>MC-20S</span></h2>
+                <h2 class="display-2">检测机 <span>MC-20S</span></h2>
               </v-card-title>
               <v-card-text>
 

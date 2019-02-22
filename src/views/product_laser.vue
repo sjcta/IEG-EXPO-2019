@@ -70,6 +70,9 @@
 .imgList {
   font-size: 83%;
 }
+h2 span {
+  font-size: 50%;
+}
 </style>
 
 <script>
