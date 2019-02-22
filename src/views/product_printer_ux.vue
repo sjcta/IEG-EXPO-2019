@@ -16,7 +16,7 @@
                 <h2 class="display-2">{{products[0]}}</h2>
               </v-card-title>
               <v-card-text>
-                <v-img :src="require('@/assets/images/products/printer/UX-D160S.png')">
+                <v-img :src="require('@/assets/images/products/printer/UX-D160S.png')" aspect-ratio=1>
                     <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
                       <v-progress-circular indeterminate color="grey"></v-progress-circular>
                     </v-layout>
@@ -44,7 +44,7 @@
               </v-card-title>
               <v-card-text>
                 
-                <v-img :src="require('@/assets/images/products/printer/UX-D860S.png')">
+                <v-img :src="require('@/assets/images/products/printer/UX-D860S.png')" aspect-ratio=1>
                     <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
                       <v-progress-circular indeterminate color="grey"></v-progress-circular>
                     </v-layout>
@@ -78,7 +78,7 @@
               </v-card-title>
               <v-card-text>
                 
-                <v-img :src="require('@/assets/images/products/printer/UX-D110S.png')">
+                <v-img :src="require('@/assets/images/products/printer/UX-D110S.png')" aspect-ratio=1>
                     <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
                       <v-progress-circular indeterminate color="grey"></v-progress-circular>
                     </v-layout>

@@ -12,7 +12,7 @@
               </v-card-title>
               <v-card-text>
                 <v-container>
-                  <v-img :src="require('@/assets/images/products/printer/g.png')" class="mb-3" contain>
+                  <v-img :src="require('@/assets/images/products/printer/g.png')" class="mb-3" contain aspect-ratio=1>
                       <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
                         <v-progress-circular indeterminate color="grey"></v-progress-circular>
                       </v-layout>

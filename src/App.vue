@@ -11,12 +11,12 @@
             <div class="blockBG text-xs-center">
                 <h1 class="headline">日立产机系统(中国)<br />有限公司</h1>
                 
-                <p class="title">出展第100届全国糖酒商品交易会</p>
+                <p class="title">出展第100届<br />全国糖酒商品交易会</p>
 
                 <h3>2019年3月21日～23日</h3>
                 <p>中国，成都</p>
 
-                <v-btn block large @click="openDoor" color="primary">点击进入<br/>v0.4</v-btn>
+                <v-btn block dark large @click="openDoor" :color="$store.state.mainColor">点击进入<br/>v0.4.1</v-btn>
                 
             </div>
 
