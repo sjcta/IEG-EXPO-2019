@@ -12,7 +12,7 @@
     <v-content id="indexPage">
       <v-container fluid>
         <v-flex xs12 sm6 offset-sm3>
-          <v-card color="grey lighten-3" >
+          <v-card :color="$store.state.mainColor + ' lighten-5'">
             <v-card-title>
               <div>
                 <h2>日立产机系统出展<br />第100届全国糖酒商品交易会</h2>

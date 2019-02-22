@@ -6,24 +6,24 @@
 
           <div id="logo"></div>
 
-          <v-layout align-center justify-center id="text" class="text-xs-center white--text">
-            <h1 class="text-xs-center">第100届<br />全国糖酒商品交易会</h1>
-            <div class="headline">
-                <h1 class="text-xs-center">日立产机系统（中国）有限公司</h1>
-                <span>出展信息</span>
+          <v-layout align-center justify-center id="text" class="text-xs-center white--text pa-0">
+
+            <div class="blockBG text-xs-center">
+                <h1 class="headline">日立产机系统(中国)<br />有限公司</h1>
+                
+                <p class="title">出展第100届全国糖酒商品交易会</p>
+
+                <h3>2019年3月21日～23日</h3>
+                <p>中国，成都</p>
+
+                <v-btn block large @click="openDoor" color="primary">点击进入<br/>v0.4</v-btn>
+                
             </div>
 
-            <div class="date">
-              <h3>2019年3月21日～23日</h3>
-              <span>中国，成都</span>
-            </div>
-
-            <div>
-              <v-btn depressed small @click="openDoor" color="primary">Enter v0.3.7</v-btn>
-            </div>
           </v-layout>
 
         </v-container>
+
 
       </v-content>
     </transition>
@@ -115,10 +115,19 @@
   }
   .fixed {
     position: fixed;
-
   }
+  
   footer {
     border-top: 1px solid #eee;
+  }
+
+  .blockBG {
+    width: 100%;
+    padding: 50px 20px;
+    background-color: rgba(0, 0, 0, .5);
+  }
+  .blockBG p {
+    line-height: 2;
   }
    .v-toolbar {
      z-index: 99;
@@ -168,48 +177,15 @@
   }
   #pop #text .headline {
     width: 100%;
-    border-bottom: 2px solid #ef0227;
+    border-bottom: 2px solid #FFF;
     margin-bottom: 30px;
-  }
-  #pop #text .headline h1 {
-    font-size: 110%;
-    line-height: 1;
-  }
-  #pop #text .headline span {
-    font-size: 50%;
+    line-height: 2;
   }
   #pop p.corp {
     border-bottom: 2px solid #ef0227;
     font-size: 140%;
     font-weight: 900;
     line-height: 2;
-  }
-  #pop #text .location,
-  #pop #text .date {
-    width: 90%;
-    font-size: 90%;
-    margin-bottom: 20px;
-  }
-  #pop #text .location h3 {
-    border-bottom: 2px solid #FFF;
-    margin-bottom: 5px;
-    line-height: 2;
-  }
-  #pop #text .location span {
-    line-height: 1.5;
-  }
-  #buttons {
-    position: absolute;
-    display: flex;
-    bottom: 50px;
-    left:0;
-    right: 0;
-    justify-content: center;
-  }
-  .disperse {
-    text-align: justify;
-    text-justify: distribute-all-lines;
-    text-align-last: justify;
   }
 
 .theme--light.application {
