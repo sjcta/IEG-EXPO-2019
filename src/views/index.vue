@@ -3,7 +3,7 @@
     <v-toolbar app dark :color="$store.state.mainColor">
       <v-layout align-center justify-space-between row>
           <v-toolbar-title class=" text-uppercase text-xs-center">
-            <span class="text-xs-center">日立产机系统</span>
+            <span class="text-xs-center">日立产机系统（中国）出展信息</span>
           </v-toolbar-title>
       </v-layout>
 
@@ -29,7 +29,7 @@
 
         
         <v-list>
-          <v-subheader class="px-0">信息一览</v-subheader>
+          <v-subheader class="px-0">导览信息</v-subheader>
           <div id="buttonList">
             <v-layout row>
               <v-flex xs12>

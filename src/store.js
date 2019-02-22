@@ -7,7 +7,7 @@ export default new Vuex.Store({
   state: {
     states: 'turn-left',
     showDoor: true,
-    mainColor: 'indigo'
+    mainColor: 'pink'
   },
   getters: {
   },

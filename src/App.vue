@@ -16,7 +16,7 @@
                 <h3>2019年3月21日～23日</h3>
                 <p>中国，成都</p>
 
-                <v-btn block dark large @click="openDoor" :color="$store.state.mainColor">点击进入<br/>v0.4.1</v-btn>
+                <v-btn block dark large @click="openDoor" :color="$store.state.mainColor">点击进入<br/>v0.4.2</v-btn>
                 
             </div>
 
