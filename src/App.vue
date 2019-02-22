@@ -41,10 +41,10 @@
 <style>
 
   .door-anim-enter-active {
-    animation: dropDown .5s;
+    animation: zoom .5s;
   }
   .door-anim-leave-active {
-    animation: goOut .5s;
+    animation: zoom .5s;
   }
   .router-anim-enter-active {
     animation: fadeIn .5s;
@@ -89,24 +89,14 @@
       opacity: 0;
     }
   }
-  @keyframes moveIn {
+  @keyframes zoom {
     from {
-      transform: translate(-50%, 0);
-      opacity: 0;
-    }
-    to {
-      transform: translate(0);
       opacity: 1;
     }
-  }
-  @keyframes moveOut {
-    from {
-      transform: translate(0);
-      opacity: 1
-    }
-    to {
-      transform: translate(50%, 0);
+
+    100% {
       opacity: 0;
+      transform: scale3d(1.5, 1.5, 1.5);
     }
   }
   body {
@@ -214,7 +204,6 @@ export default {
             }
   },
   mounted () {
-    console.log(this.$store.state.showDoor)
   },
   computed: {
     doorState() {
