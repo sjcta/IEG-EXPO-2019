@@ -29,15 +29,11 @@
                 </p>
                 <v-img :src="require('@/assets/images/products/printer/ux-d160s_p1.png')" class="mb-3" contain></v-img>
 
-                <p class="caption mb-3">* 和日立现有的设备相比，在相同条件下，UX-B和UX-D的溶剂挥发量减少30% （墨水：1067K，温度：20℃）</p>
+                <p class="caption mb-4">* 和日立现有的设备相比，在相同条件下，UX-B和UX-D的溶剂挥发量减少30% （墨水：1067K，温度：20℃）</p>
 
-                <v-container>
-                  <v-img :src="require('@/assets/images/products/printer/ux-d160s_p2.png')" class="mb-3" contain></v-img>
-                </v-container>
-
-                  <v-btn depressed block dark large href="http://www.hitachi-iec.cn/ch/product/print/ux/index.html" :color="$store.state.mainColor">
-                    <span class="text-capitalize">了解更多</span>
-                  </v-btn>
+                <v-btn depressed block dark large href="http://www.hitachi-iec.cn/ch/product/print/ux/index.html" :color="$store.state.mainColor">
+                  <span class="text-capitalize">了解更多</span>
+                </v-btn>
               </v-card-text>
             </v-card>
           </v-tab-item>
@@ -65,7 +61,7 @@
 
                 <p class="caption mb-3">*1 和我司单喷嘴机型（UX-D660J）对比</p>
 
-                <v-container>
+                <v-container class="px-0">
                   <v-img :src="require('@/assets/images/products/printer/ux-d860s_p1.png')" class="mb-3" contain></v-img>
                 </v-container>
                 
@@ -87,7 +83,73 @@
                       <v-progress-circular indeterminate color="grey"></v-progress-circular>
                     </v-layout>
                 </v-img>
-                
+
+                <v-container class="px-0">
+                  <h3>微字机</h3>
+                  <p>适用于电子、汽车零部件等行业</p>
+
+                  <v-layout row>
+                    <v-flex xs5>
+                      <v-img :src="require('@/assets/images/products/printer/ux-d110s_p1.jpg')">
+                          <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
+                            <v-progress-circular indeterminate color="grey"></v-progress-circular>
+                          </v-layout>
+                      </v-img>
+                    </v-flex>
+                    <v-flex xs6 offset-xs1>
+                      <v-img :src="require('@/assets/images/products/printer/ux-d110s_p2.jpg')">
+                          <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
+                            <v-progress-circular indeterminate color="grey"></v-progress-circular>
+                          </v-layout>
+                      </v-img>
+                    </v-flex>
+                  </v-layout>
+                </v-container>
+
+                <v-container class="px-0">
+                  <h3>高速机</h3>
+                  <p>适用于高速生产线等</p>
+
+                  <v-layout row>
+                    <v-flex xs5>
+                      <v-img :src="require('@/assets/images/products/printer/ux-d110s_p3.jpg')">
+                          <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
+                            <v-progress-circular indeterminate color="grey"></v-progress-circular>
+                          </v-layout>
+                      </v-img>
+                    </v-flex>
+                    <v-flex xs6 offset-xs1>
+                      <v-img :src="require('@/assets/images/products/printer/ux-d110s_p4.jpg')">
+                          <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
+                            <v-progress-circular indeterminate color="grey"></v-progress-circular>
+                          </v-layout>
+                      </v-img>
+                    </v-flex>
+                  </v-layout>
+                </v-container>
+
+                <v-container class="px-0">
+                  <h3>大字机</h3>
+                  <p>适用于纸箱、木材、建材等行业</p>
+
+                  <v-layout row>
+                    <v-flex xs5>
+                      <v-img :src="require('@/assets/images/products/printer/ux-d110s_p5.jpg')">
+                          <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
+                            <v-progress-circular indeterminate color="grey"></v-progress-circular>
+                          </v-layout>
+                      </v-img>
+                    </v-flex>
+                    <v-flex xs6 offset-xs1>
+                      <v-img :src="require('@/assets/images/products/printer/ux-d110s_p6.jpg')">
+                          <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
+                            <v-progress-circular indeterminate color="grey"></v-progress-circular>
+                          </v-layout>
+                      </v-img>
+                    </v-flex>
+                  </v-layout>
+                </v-container>
+
                 <v-btn depressed block dark large href="http://www.hitachi-iec.cn/ch/product/print/ux/uxykj/index.html" :color="$store.state.mainColor">
                   <span class="text-capitalize">了解更多</span>
                 </v-btn>

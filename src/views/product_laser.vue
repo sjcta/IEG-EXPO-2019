@@ -56,11 +56,11 @@
               </v-card-text>
             </v-card>
 
-        <v-container>
-            <v-btn depressed block dark large href="http://www.hitachi-iec.cn/ch/product/print/jg/index.html" :color="$store.state.mainColor">
-            <span class="text-capitalize">了解更多</span>
-            </v-btn>
-        </v-container>
+          <v-container fluid>
+              <v-btn depressed block dark large href="http://www.hitachi-iec.cn/ch/product/print/jg/index.html" :color="$store.state.mainColor">
+              <span class="text-capitalize">了解更多</span>
+              </v-btn>
+          </v-container>
       </v-container>
     </v-content>
   </div>

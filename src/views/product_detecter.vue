@@ -33,7 +33,7 @@
                   <v-img :src="require('@/assets/images/products/detecter/detecter_p2.png')" class="mb-3" contain></v-img>
                 </v-container>
 
-                <v-container>
+                <v-container class="px-0">
                   <v-btn depressed block dark large href="http://www.hitachi-iec.cn/ch/product/print/pd/mc/index.html" :color="$store.state.mainColor">
                     <span class="text-capitalize">了解更多</span>
                   </v-btn>

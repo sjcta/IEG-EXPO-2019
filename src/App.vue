@@ -19,7 +19,7 @@
             </div>
 
             <div>
-              <v-btn depressed small @click="openDoor" color="primary">Enter v0.3.4</v-btn>
+              <v-btn depressed small @click="openDoor" color="primary">Enter v0.3.5</v-btn>
             </div>
           </v-layout>
 

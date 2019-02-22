@@ -23,7 +23,7 @@
                         <v-progress-circular indeterminate color="grey"></v-progress-circular>
                       </v-layout>
                     </v-img>
-                    <v-card-text class="text-xs-center">
+                    <v-card-text class="text-xs-center py-0">
                       <v-btn block flat>{{i}}<v-icon :color="$store.state.mainColor" small dark>arrow_forward_ios</v-icon></v-btn>
                     </v-card-text>
                 </v-card>
@@ -46,12 +46,12 @@
         <v-layout row>
             <v-flex xs4>
                 <v-card flat @click="showProduct('g')">
-                    <v-img :src="require('@/assets/images/products/printer/g.png')" aspect-ratio="1">
+                    <v-img :src="require('@/assets/images/products/printer/g.png')" aspect-ratio="1" class="mx-3">
                       <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
                         <v-progress-circular indeterminate color="grey"></v-progress-circular>
                       </v-layout>
                     </v-img>
-                    <v-card-text class="text-xs-center">
+                    <v-card-text class="text-xs-center py-0">
                       <v-btn block flat>G系列<v-icon :color="$store.state.mainColor" small dark>arrow_forward_ios</v-icon></v-btn>
                     </v-card-text>
                 </v-card>
