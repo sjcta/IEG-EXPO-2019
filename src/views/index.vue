@@ -48,7 +48,8 @@
               </v-flex>
             </v-layout>
           </div>
-
+        </v-list>
+<!-- 
           <v-list-tile avatar ripple to="/product" :color="$store.state.mainColor">
             <v-list-tile-avatar>
               <v-icon left :color="$store.state.mainColor">star</v-icon>
@@ -83,8 +84,7 @@
             <v-list-tile-action>
               <v-icon left>arrow_forward_ios</v-icon>
             </v-list-tile-action>
-          </v-list-tile>
-        </v-list>
+          </v-list-tile> -->
 
       </v-container>
     </v-content>
