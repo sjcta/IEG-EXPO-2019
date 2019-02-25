@@ -15,11 +15,21 @@
                     <h3>日立产机系统（中国）有限公司</h3>
                     
                     <p>中国 上海市 茂名南路205号 瑞金大厦2201室</p>
-                    <v-btn flat block href="tel:02154892378" class="text-lowercase"><v-icon small left>phone</v-icon> (86)-21-5489-2378 转 7018</v-btn>
-                    <v-btn flat block class="text-lowercase"><v-icon small left>print</v-icon> (86)-21-3356-5070</v-btn>
-                    <v-btn flat block href="mailto:sdxu@hitachi-iec.cn" class="text-lowercase">
-                        <v-icon small left>mail</v-icon>sdxu@hitachi-iec.cn
-                    </v-btn>
+                    <ul>
+                        <li>
+                            <a href="tel:02154892378" class="text-lowercase text-sm-left">
+                                <v-icon small left>phone</v-icon>  (86)-21-5489-2378 转 7018
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <v-icon small left>print</v-icon>  (86)-21-3356-5070
+                        </li>
+                        <li>
+                            <a href="mailto:sdxu@hitachi-iec.cn" class="text-lowercase text-sm-left">
+                               <v-icon small left>mail</v-icon> sdxu@hitachi-iec.cn
+                            </a>
+                        </li>
                     </ul>
                     </div>
                 </v-card-title>
@@ -32,9 +42,19 @@
 </template>
 
 <style scoped>
-.v-btn {
-    justify-content: left;
+#contact ul {
+    padding: 0;
 }
+#contact ul li {
+    margin-bottom: 5px;
+    list-style: none;
+}
+#contact ul li a {
+    text-decoration: none;
+    line-height: 1.4;
+    color: #333;
+}
+
 </style>
 
 <script>
