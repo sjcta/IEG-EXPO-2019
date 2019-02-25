@@ -41,6 +41,10 @@
                   <v-icon left>map</v-icon>
                   <span class="text-capitalize">展位信息</span>
                 </v-btn>
+                <v-btn block dark large to="/contact" :color="$store.state.mainColor + ' lighten-1'">
+                  <v-icon left>phone</v-icon>
+                  <span class="text-capitalize">联系我们</span>
+                </v-btn>
                 <v-btn block outline large to="/qa" :color="$store.state.mainColor" v-if="isQA">
                   <v-icon left>contact_support</v-icon>
                   <span class="text-capitalize">问卷调查</span>

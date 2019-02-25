@@ -9,6 +9,7 @@ import productDetecter from './views/product_detecter.vue'
 import productLaser from './views/product_laser.vue'
 import productAC from './views/product_ac.vue'
 import info from './views/info.vue'
+import contact from './views/contact.vue'
 
 Vue.use(Router)
 
@@ -60,6 +61,11 @@ export default new Router({
       path: '/info',
       name: 'infoPage',
       component: info
+    },
+    {
+      path: '/contact',
+      name: 'contactPage',
+      component: contact
     }
   ]
 })
