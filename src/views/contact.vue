@@ -4,7 +4,7 @@
 
     <v-content id="contact">
       <v-container fluid>
-          <h2 class="mb-4">联系我们</h2>
+          <h2 class="mb-4">联络窗口</h2>
 
           <v-layout row wrap class="mb-4">
             <v-flex xs12>
