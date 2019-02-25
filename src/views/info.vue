@@ -4,7 +4,11 @@
 
     <v-content id="info">
       <v-container fluid>
-          <h2>第100届全国糖酒商品交易会展馆<br />日立产机系统展台示意图</h2>
+          <h2 class="mb-4">第100届全国糖酒商品交易会展馆<br />日立产机系统展台示意图</h2>
+
+          <h3>中国西部国际博览城<br/>
+          四川省成都市天府新区福州路东段88号
+          </h3>
 
           <v-layout row wrap class="mb-4 mt-4">
                <h3>2号馆</h3>
