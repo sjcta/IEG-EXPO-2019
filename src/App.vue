@@ -8,7 +8,7 @@
 
           <v-layout align-center justify-center id="text" class="text-xs-center white--text pa-0">
 
-            <div class="blockBG text-xs-center">
+            <div class="blockBG text-xs-center sm6">
                 <h1 class="headline">日立产机系统(中国)<br />有限公司</h1>
                 
                 <p class="title">出展第100届<br />全国糖酒商品交易会</p>

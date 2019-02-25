@@ -32,7 +32,7 @@
           <v-subheader class="px-0">导览信息</v-subheader>
           <div id="buttonList">
             <v-layout row>
-              <v-flex xs12>
+              <v-flex xs12 sm6>
                   <v-btn block dark large to="/product" :color="$store.state.mainColor + ' lighten-1'">
                     <v-icon left>star</v-icon>
                     <span class="text-capitalize">出展产品</span>
